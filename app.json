@@ -8,6 +8,11 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectID": "2664d365-239d-43e6-b00a-48d9a1be2b1d",
+      }
+    }
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
