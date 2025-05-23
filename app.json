@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "path-chronicle---alpha-trail",
+    "slug": "snack-d0c68622-3ff4-499d-ac28-ab658da57ff1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Early working prototype of the Path Chronicle app. Displays map view, requests location access, and begins GPS tracking. Designed for solo testing and path-tracing logic experiments."
+  }
+}
