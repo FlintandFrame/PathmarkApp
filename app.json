@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "extra": {
       "eas": {
-        "projectID": "2664d365-239d-43e6-b00a-48d9a1be2b1d"
+        "projectId": "2664d365-239d-43e6-b00a-48d9a1be2b1d"
       }
     },
     "splash": {
@@ -26,12 +26,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "Early working prototype of the Path Chronicle app. Displays map view, requests location access, and begins GPS tracking. Designed for solo testing and path-tracing logic experiments."
+    "description": "Early working prototype of the Path Chronicle app. Displays map view, requests location access, and begins GPS tracking. Designed for solo testing and path-tracing logic experiments.",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "edgeToEdgeEnabled": true
   }
 }
